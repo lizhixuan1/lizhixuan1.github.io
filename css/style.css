@@ -36,7 +36,11 @@ html {
 body {
   color: #505050;
   line-height: 1.75em;
-  background: #ebebeb;
+  background:url(../img/background.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:center;
   position: relative;
   font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
 }
@@ -90,8 +94,8 @@ a img {
   border-radius: 2px;
 }
 .btn-default {
-  border: 1px solid #e67e22;
-  background: #e67e22;
+  border: 1px solid #333;
+  background: #333;
   color: #fff;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -122,7 +126,7 @@ input[type="search"] {
   transition: all 0.2s;
 }
 input[type="search"]:focus {
-  border: 1px solid #e67e22;
+  border: 1px solid #333;
   outline: none;
 }
 input[type="text"] {
@@ -188,12 +192,12 @@ pre {
 }
 ::-moz-selection {
   color: #fff;
-  background: #e67e22;
+  background: #333;
   text-shadow: none;
 }
 ::selection {
   color: #fff;
-  background: #e67e22;
+  background: #333;
   text-shadow: none;
 }
 .ie {
@@ -454,8 +458,8 @@ pre {
 .post .post-media {
   position: relative;
   margin-right: 15px;
-  width: 220px;
-  height: 160px;
+  width: 100px;
+  height: 100px;
   float: left;
   overflow: hidden;
 }
@@ -765,7 +769,7 @@ pre {
   border-radius: 2px;
 }
 .pagination a:hover {
-  background: #e67e22;
+  background: #555;
   color: #fff;
   text-decoration: none;
 }
@@ -790,8 +794,9 @@ pre {
   border-radius: 2px;
 }
 .pagination .current {
-  background: #e67e22;
+  background: #333;
   color: #fff;
+  cursor: default;
 }
 /*====================================================
     other: about and comment
@@ -901,7 +906,7 @@ pre {
   content: "";
   width: 90px;
   height: 1px;
-  background: #e67e22;
+  background: #333;
   position: absolute;
   left: 0;
   bottom: -1px;
@@ -933,7 +938,7 @@ pre {
   height: 40px;
   line-height: 45px;
   color: #fff;
-  background: #808080;
+  background: #333;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -941,7 +946,7 @@ pre {
   margin-bottom: 10px;
 }
 .widget .social a:hover {
-  background: #e67e22;
+  background: #555;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -962,10 +967,10 @@ pre {
   float: right;
   width: 25%;
   height: 32px;
-  background: #e67e22;
+  background: #333;
   color: #fff;
   border-radius: 0 4px 4px 0;
-  border: 1px solid #e67e22;
+  border: 1px solid #333;
 }
 .widget #search-form #result-mask {
   position: fixed;
